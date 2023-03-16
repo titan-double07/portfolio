@@ -180,7 +180,6 @@
   overflow: hidden;
   white-space: nowrap;
   width: 0;
-  animation-fill-mode: forwards;
 }
 
 .typed-1 {
@@ -227,7 +226,7 @@
     opacity: 1;
   }
 }
-.home .icon-container.fade-in {
+.home .fade-in{
   transform: translateY(50px);
   animation: descendFadeIn 2s ease-in 3s forwards;
 }

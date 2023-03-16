@@ -237,7 +237,7 @@ h4 {
 }
 
 .ham-btn.close .btn-line:nth-child(1) {
-  transform: rotate(45deg) translate(5.5px, 5px);
+  transform: rotate(45deg) translate(5.5px, 4px);
   margin: 0px 0px 0px -4px;
 }
 
@@ -246,7 +246,7 @@ h4 {
 }
 
 .ham-btn.close .btn-line:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
+  transform: rotate(-45deg) translate(5.5px, -4px);
   margin: 0px 0px 0px -4px;
 }
 
