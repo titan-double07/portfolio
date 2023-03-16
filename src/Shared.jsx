@@ -10,6 +10,7 @@ import {
   FaFacebookSquare,
   FaPhoneAlt,
   FaEnvelope,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoLinkedin } from "react-icons/io5";
 import { useGlobalContext } from "../src/components/Context";
@@ -30,7 +31,7 @@ export default function Shared() {
         <br />
         <h2 style={{ fontSize: "2.5rem" }}>chisom okereke</h2>
         <h4>frontend developer</h4>
-        <div className="icon-container">
+        {/* <div className="icon-container">
           <a href="">
             <IoLogoLinkedin className="icon linkedin" />
           </a>
@@ -40,9 +41,9 @@ export default function Shared() {
           <a href="">
             <FaFacebookSquare className="icon facebook" />
           </a>
-        </div>
+        </div> */}
         <div className="tel-no">
-          <FaPhoneAlt /> : +234 701 438 5856
+          <FaWhatsapp /> : +234 701 438 5856
         </div>
         <div className="email lowercase">
           <FaEnvelope /> :{" "}

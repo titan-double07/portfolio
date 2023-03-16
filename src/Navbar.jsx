@@ -10,6 +10,7 @@ import {
   FaTwitter,
   FaFacebookSquare,
   FaPhoneAlt,
+  FaWhatsapp,
   FaEnvelope,
 } from "react-icons/fa";
 import { useGlobalContext } from "./components/Context";
@@ -42,14 +43,14 @@ export default function Navbar() {
           })}
         </ul>
         <div className="tel-no">
-          <FaPhoneAlt /> : +234 701 438 5856
+          <FaWhatsapp /> : +234 701 438 5856
         </div>
         <div className="email lowercase">
           <FaEnvelope /> :{" "}
           <a href="mailto:chisomwebdev@outlook.com">chisomwebdev@outlook</a>
         </div>
       </div>
-      <div className="nav-links-container" >
+      <div className="nav-links-container">
         <ul id="hidden-tab" className="nav-links ">
           {links.map((link) => {
             const { id, url, text, icon } = link;
