@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
-import profileImg from "../src/assets/images/profile.jpg";
+import profileImg from "../public/images/profile.jpg";
 import {
   FaHtml5,
   FaCss3Alt,

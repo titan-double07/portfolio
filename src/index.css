@@ -42,7 +42,7 @@ body {
   body {
     width: 100%;
     height: 100vh;
-    background-image: url(./assets/images/background.jpg);
+    background-image: url(../public/images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -98,7 +98,7 @@ h4 {
 
 @media only screen and (max-width: 767px) {
   h1 {
-    font-size: 4.8rem;
+    font-size: 4rem;
   }
 
   h2 {
@@ -527,7 +527,11 @@ h4 {
 .home .icon-container .icon {
   font-size: 5rem;
 }
-
+@media screen and (max-width: 767px) {
+.home .icon-container .icon {
+  font-size: 3rem;
+}
+}
 /* //////////// */
 /* About page */
 .about,

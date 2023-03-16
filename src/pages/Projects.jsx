@@ -1,6 +1,6 @@
 import React from "react";
 import { skills, projects } from "../data";
-import img from "../assets/images/zuri-registration-form_img.png";
+import img from "../../public/images/zuri-registration-form_img.png";
 import { Img } from "react-image";
 import { useGlobalContext } from "../components/Context";
 
@@ -37,7 +37,10 @@ function Projects() {
                   <a href={url}>visit site &gt;&gt;</a>
                 </div>
               </div>
-              <Img className="project-img card " src={image} />
+              <Img
+                className="project-img card "
+                src={image}
+              />
               <p>{text}</p>
             </div>
           );

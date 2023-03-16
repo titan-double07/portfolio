@@ -25,7 +25,7 @@ function Home() {
         <h1 className="typed typed-1">chisom okereke</h1>
         <h3 className="typed typed-2">frontend developer</h3>
         <br />
-        <div className="icon-container fade-in">
+        <div className="icon-container fade-in flex-wrap">
           {
             skills.map((skill, index) => {
             const { text, icon } = skill;
@@ -38,22 +38,7 @@ function Home() {
               );
             })
           }
-          {/* <div className="flex-col">
-            <FaHtml5 className="icon html5" />
-            <p>html</p>
-          </div>
-          <div className="flex-col">
-            <FaCss3Alt className="icon css3" />
-            <p>css</p>
-          </div>
-          <div className="flex-col">
-            <IoLogoJavascript className="icon js" />
-            <p>javascript</p>
-          </div>
-          <div className="flex-col">
-            <FaReact className="icon react" />
-            <p>react</p>
-          </div> */}
+
         </div>
       </div>
     </div>

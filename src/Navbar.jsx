@@ -2,7 +2,7 @@ import React, { useEffect, useState,useRef } from "react";
 import HamBtn from "./components/HamBtn";
 import { NavLink } from "react-router-dom";
 import { links } from "./data";
-import profileImg from "../src/assets/images/profile.jpg";
+import profileImg from "../public/images/profile.jpg";
 import {
   FaHtml5,
   FaCss3Alt,
