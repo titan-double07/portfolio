@@ -7,8 +7,10 @@ import Contact from "./pages/Contact";
 import Shared from "./Shared";
 import { links } from "./data";
 import Preloader from "./components/Preloader";
+import { useGlobalContext } from "../src/components/Context";
 
 export default function App() {
+  const { close, isOpen } = useGlobalContext();
   const [isLoading, setIsLoading] = useState(true);
   window.onload = function () {
     setIsLoading(false);
@@ -21,18 +23,17 @@ export default function App() {
   // },[isLoading])
   return isLoading ? (
     <Preloader />
-  ) : (
-    // <body className="bg-img">
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Shared />}>
-          <Route index element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-    // </body>
+    ) : (
+    
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Shared />}>
+            <Route index element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
   );
 }

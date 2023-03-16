@@ -66,6 +66,7 @@
   align-items: center;
 }
 
+
 /* //////// */
 
 /* text */
@@ -89,13 +90,13 @@
 /* flex and grid */
 .flex {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 @media screen and (max-width: 1199px) {
   .flex {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -230,11 +231,22 @@
   transform: translateY(50px);
   animation: descendFadeIn 2s ease-in 3s forwards;
 }
+.about,.projects,.contact{
+    opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+@media only screen and (min-width: 1200px) {
+
+  .about,.projects,.contact{
+    transform: translateY(-50px);
+    animation: descendFadeIn 1s ease-in forwards;
+  }
+}
 
 @keyframes descendFadeIn {
   from {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(-50px);
   }
   to {
     opacity: 1;

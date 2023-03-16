@@ -9,7 +9,7 @@ function About() {
   const { close, isOpen } = useGlobalContext();
 
   return (
-    <div className="about container" onClick={isOpen?close:undefined} >
+    <div className="about container"  >
       <section className="about-text">
         <h2>
           About <span className="accent">Me</span>
@@ -73,9 +73,9 @@ function About() {
               <p>
                 <a href="https://www.udacity.com/">Udacitity</a>
               </p>
-              <h3>
+              <h4>
                 <SiUdacity />
-              </h3>
+              </h4>
             </div>
           </div>
         </div>

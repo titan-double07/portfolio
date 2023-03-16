@@ -17,6 +17,8 @@ import { useGlobalContext } from "../src/components/Context";
 export default function Shared() {
   const { close, isOpen } = useGlobalContext();
   return (
+      // <div onClick={isOpen ? close : undefined}>
+      // </div>
     <div className="xl-container">
       <div
         id="hidden-tab"
@@ -26,7 +28,7 @@ export default function Shared() {
           <img src={profileImg} alt="profileimage" />
         </div>
         <br />
-        <h2 style={{ fontSize: "3rem" }}>chisom okereke</h2>
+        <h2 style={{ fontSize: "2.5rem" }}>chisom okereke</h2>
         <h4>frontend developer</h4>
         <div className="icon-container">
           <a href="">
