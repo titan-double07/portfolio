@@ -29,7 +29,7 @@ function Home() {
             const { text, icon } = skill;
 
             return (
-              <div className="flex-col">
+              <div key={index} className="flex-col">
                 {icon}
                 <p>{text}</p>
               </div>
