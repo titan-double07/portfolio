@@ -5,22 +5,21 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Shared from "./Shared";
-import { links } from "./data";
 import Preloader from "./components/Preloader";
 import { useGlobalContext } from "../src/components/Context";
 
 export default function App() {
   const { close, isOpen } = useGlobalContext();
   const [isLoading, setIsLoading] = useState(true);
-  window.onload = function () {
-    setIsLoading(false);
-  };
-  // useEffect(() => {
-  //   // !isLoading
-  //   <style>
+  useEffect(() => {
+    window.onload = function () {
+      setIsLoading(false);
+    };
+  
+  }, [])
 
-  //   </style>
-  // },[isLoading])
+  
+  
   return isLoading ? (
     <Preloader />
     ) : (
