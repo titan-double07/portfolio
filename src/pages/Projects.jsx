@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { skills, projects } from "../data";
-import img from "../../public/images/zuri-registration-form_img.png";
 import { Img } from "react-image";
 import { useGlobalContext } from "../components/Context";
 import Spinner from "../components/Spinner";

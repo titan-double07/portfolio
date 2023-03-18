@@ -83,7 +83,7 @@ export const projects = [
   {
     url: "https://titanwarlord007.github.io/Make-A-Wish-copy/",
     text: "Make A Wish website",
-    image: "/images/Make-A-Wish-copy_img.png",
+    image: "/images/Make-A-Wish-copy_img.webp",
     description: "A copy of the Make A Wish foundation landing page",
     tools: ["HTML", "CSS", "Javascript"],
   },
