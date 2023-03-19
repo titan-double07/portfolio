@@ -6,17 +6,15 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Shared from "./Shared";
 import Preloader from "./components/Preloader";
-import { useGlobalContext } from "../src/components/Context";
 
 export default function App() {
-  const { close, isOpen } = useGlobalContext();
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    window.onload = function () {
-      setIsLoading(false);
-    };
+  const [isLoading, setIsLoading] = useState(false);
+  // useEffect(() => {
+  //   window.onload = function () {
+  //     setIsLoading(false);
+  //   };
   
-  }, [])
+  // }, [])
 
   
   

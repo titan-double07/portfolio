@@ -9,7 +9,7 @@ function About() {
   const { close, isOpen } = useGlobalContext();
 
   return (
-    <div className="about container"  >
+    <div className="about container" onClick={isOpen ? close : undefined}>
       <section className="about-text">
         <h2>
           About <span className="accent">Me</span>

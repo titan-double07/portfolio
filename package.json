@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview --port 8080",
     "deploy": "vite build && gh-pages -d dist"
@@ -27,6 +27,7 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "gh-pages": "^5.0.0",
+    "netlify-cli": "^13.1.6",
     "vite": "^4.0.0"
   }
 }

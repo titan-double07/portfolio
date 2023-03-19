@@ -1,14 +1,4 @@
 import React from "react";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaReact,
-  FaTwitter,
-  FaFacebookSquare,
-  FaPhoneAlt,
-  FaEnvelope,
-} from "react-icons/fa";
-import { IoLogoJavascript, IoLogoLinkedin } from "react-icons/io5";
 import { skills } from "../data";
 import { useGlobalContext } from "../components/Context";
 
