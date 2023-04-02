@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { skills, projects } from "../data";
 import { Img } from "react-image";
 import { useGlobalContext } from "../components/Context";
-import Spinner from "../components/Spinner";
 
 
 function Projects() {
@@ -39,7 +38,6 @@ function Projects() {
               <Img
                 className="project-img card "
                 src={image}
-                loading={<Spinner />}
               />
               <p>{text}</p>
             </div>

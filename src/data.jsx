@@ -74,6 +74,20 @@ export const skills = [
 
 export const projects = [
   {
+    url: "https://chisomwebdev.vercel.app/",
+    text: "My Portfolio Website",
+    image: "/images/portfolio-img.png",
+    description: "My very own porfolio website, showcasing my eye for design and my proficiency with react",
+    tools: ["React","CSS"],
+  },
+  {
+    url: "https://ecommerce-product-page-nine-mauve.vercel.app/",
+    text: "Ecommerce product page",
+    image: "/images/ecommerce-product-page.png",
+    description: "An ecommerce product page challenge from frontendmentor.io; showcasing my proficiency with react hooks such as useState, useReducer, useContext etc",
+    tools: ["React", "Taillwind"],
+  },
+  {
     url: "https://titanwarlord007.github.io/zuri-registration-form/",
     text: " Registration Form",
     image: "/images/zuri-registration-form_img.png",

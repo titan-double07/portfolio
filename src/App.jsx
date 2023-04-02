@@ -6,22 +6,27 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Shared from "./Shared";
 import Preloader from "./components/Preloader";
+// import { Ring } from "react-preloaders";
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(false);
-  // useEffect(() => {
-  //   window.onload = function () {
-  //     setIsLoading(false);
-  //   };
-  
-  // }, [])
-
-  
-  
-  return isLoading ? (
-    <Preloader />
-    ) : (
+  useEffect(() => {
+    // window.onload = function () {
+    //   setIsLoading(false);
+    // };
+    window.addEventListener("load", (event) => {
+     setIsLoading(true)
+    });
     
+  }, [])
+  
+  // useEffect(() => {
+  //   console.log(isLoading)
+  //  },[isLoading])
+  
+  return (
+    <div>
+      {/* <Ring customLoading={isLoading} bgColor="#f1f1f1" time={1000} size={60} /> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Shared />}>
@@ -32,5 +37,6 @@ export default function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+    </div>
   );
 }
