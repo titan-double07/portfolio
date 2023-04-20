@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import { IoLogoJavascript} from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
+
 export const links = [
   {
     id: 1,
@@ -73,6 +74,13 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    url: "https://traders-app-teal.vercel.app/",
+    text: "Stock Watchlist App",
+    image: "/images/https://traders-app-teal.vercel.app/",
+    description: "A simple stock watchlist where users can keep track of their favoite stocks, showcasing my profifiency with react query and api handling",
+    tools: ["React","CSS",'ReactQuery'],
+  },
   {
     url: "https://chisomwebdev.vercel.app/",
     text: "My Portfolio Website",

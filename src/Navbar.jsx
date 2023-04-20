@@ -4,12 +4,6 @@ import { NavLink } from "react-router-dom";
 import { links } from "./data";
 import profileImg from "/images/profile.jpg";
 import {
-  FaHtml5,
-  FaCss3Alt,
-  FaReact,
-  FaTwitter,
-  FaFacebookSquare,
-  FaPhoneAlt,
   FaWhatsapp,
   FaEnvelope,
 } from "react-icons/fa";
@@ -18,7 +12,6 @@ import { useGlobalContext } from "./components/Context";
 export default function Navbar() {
 
   const { isOpen } = useGlobalContext()
-  
 
   
   return (
