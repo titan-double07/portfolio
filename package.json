@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host ",
+    "build": "vite build",
+    "preview": "vite preview "
+
+  },
+  "dependencies": {
+    "@formspree/react": "^2.4.1",
+    "d": "^1.0.1",
+    "eslint": "^8.34.0",
+    "normalize.css": "^8.0.1",
+    "prettier": "^2.8.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-final-form": "^6.5.9",
+    "react-icons": "^4.7.1",
+    "react-image": "^4.1.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
+    "netlify-cli": "^13.1.6",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.0.0"
+  }
+}

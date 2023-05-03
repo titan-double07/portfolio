@@ -1,0 +1,265 @@
+/* MEDIA QUERIES */
+/* large screens */
+@media only screen and (min-width: 1200px) {
+}
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* Styles for tablets */
+}
+/* mobile */
+@media screen and (max-width: 767px) {
+  /* Styles for phones */
+}
+/* tab below */
+@media screen and (max-width: 1199px) {
+}
+/* /////////////////// */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400&display=swap");
+
+:root {
+  --gray: #15648f;
+  --dark: #000b1b;
+  --accent: #00ffae;
+  --radius: 2.5em;
+  --shadow: 0 0px 20px 2px var(--accent);
+}
+/* colors */
+.accent {
+  color: var(--accent);
+}
+/* display */
+@media only screen and (min-width: 1200px) {
+  .bg-img {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../public/images/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 1199px) {
+  /* tab below */
+  #hidden-tab {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* desktop */
+  #hidden-desktop {
+    display: none;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  #hidden-mobile {
+    display: none;
+  }
+}
+/* ///// */
+/* positioning */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* //////// */
+
+/* text */
+.capitalize {
+  text-transform: capitalize;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: center;
+}
+.no-white-space {
+  white-space: nowrap;
+}
+/* /////// */
+
+/* flex and grid */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1199px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.flex-imp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grid {
+  display: grid;
+    gap: 20px;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+/*/////////////  */
+
+/* ICONS */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.html5 {
+  color: orangered;
+}
+
+.css3 {
+  color: #4165af;
+}
+
+.react,.tailwind {
+  color: #58c5ee;
+}
+
+.js {
+  color: #f7de1f;
+}
+.bootstrap {
+  color: #8712f7;
+}
+/* ////// */
+/* ANIMATIONS */
+.typed {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+}
+
+.typed-1 {
+  animation: typing 3s steps(30, end) 0s 1 normal forwards,
+    blinking 1s 3s infinite;
+}
+
+.typed-2 {
+  animation: typing 3s steps(30, end) 3s 1 normal forwards,
+    blinking 1s 6s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinking {
+  0% {
+    border-right-color: transparent;
+  }
+  50% {
+    border-right-color: var(--blue);
+  }
+  100% {
+    border-right-color: transparent;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.home .fade-in{
+  transform: translateY(50px);
+  animation: descendFadeIn 2s ease-in 3s forwards;
+}
+.about,.projects,.contact{
+    opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+@media only screen and (min-width: 1200px) {
+
+  .about,.projects,.contact{
+    transform: translateY(-50px);
+    animation: descendFadeIn 1s ease-in forwards;
+  }
+}
+
+@keyframes descendFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* ////////// */
+
+.card{
+  border: 1px solid white;
+  border-radius: 7px;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0px 2px 5px var(--accent);
+  padding: .5em;
+}
