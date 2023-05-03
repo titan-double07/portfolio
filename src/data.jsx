@@ -78,29 +78,32 @@ export const projects = [
     url: "https://traders-app-teal.vercel.app/",
     text: "Stock Watchlist App",
     image: "/images/traders-app.png",
-    description: "A simple stock watchlist where users can keep track of their favoite stocks, showcasing my profiency with react query and api handling",
-    tools: ["React","CSS",'ReactQuery'],
+    description:
+      "A simple stock watchlist where users can keep track of their favoite stocks, showcasing my profiency with react query and api handling PS:for tablets and PCs",
+    tools: ["React", "CSS", "ReactQuery"],
   },
   {
     url: "https://chisomwebdev.vercel.app/",
     text: "My Portfolio Website",
     image: "/images/portfolio-img.png",
-    description: "My very own porfolio website, showcasing my eye for design and my proficiency with react",
-    tools: ["React","CSS"],
+    description:
+      "My very own porfolio website, showcasing my eye for design and my proficiency with react",
+    tools: ["React", "CSS"],
   },
   {
     url: "https://ecommerce-product-page-nine-mauve.vercel.app/",
     text: "Ecommerce product page",
     image: "/images/ecommerce-product-page.png",
-    description: "An ecommerce product page challenge from frontendmentor.io; showcasing my proficiency with react hooks such as useState, useReducer, useContext etc",
+    description:
+      "An ecommerce product page challenge from frontendmentor.io; showcasing my proficiency with react hooks such as useState, useReducer, useContext etc",
     tools: ["React", "Taillwind"],
   },
   {
-    url: "https://titanwarlord007.github.io/zuri-registration-form/",
-    text: " Registration Form",
-    image: "/images/zuri-registration-form_img.png",
-    description: "A mock registration form, a challenge give by Zuri",
-    tools: ["HTML", "CSS", "Javascript"],
+    url: "https://simple-shopping-cart-two.vercel.app/",
+    text: "Simple Shopping Cart",
+    image: "/images/simple-shopping-cart.png",
+    description: "A Simple Shopping Cart made with redux",
+    tools: ["React Redux"],
   },
   {
     url: "https://titanwarlord007.github.io/Make-A-Wish-copy/",
