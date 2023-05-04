@@ -75,6 +75,14 @@ export const skills = [
 
 export const projects = [
   {
+    url: "https://rock-paper-scissors-app-seven.vercel.app/",
+    text: "Rock-Paper-Scissors App",
+    image: "/images/traders-app.png",
+    description:
+      "A simple stock watchlist where users can keep track of their favoite stocks, showcasing my profiency with react query and api handling PS:for tablets and PCs",
+    tools: ["React", "CSS", "ReactQuery"],
+  },
+  {
     url: "https://traders-app-teal.vercel.app/",
     text: "Stock Watchlist App",
     image: "/images/traders-app.png",
