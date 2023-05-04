@@ -35,10 +35,8 @@ function Projects() {
                   <a href={url}>visit site &gt;&gt;</a>
                 </div>
               </div>
-              <Img
-                className="project-img card "
-                src={image}
-              />
+             
+              <img className="project-img card " src={image} />
               <p>{text}</p>
             </div>
           );

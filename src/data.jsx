@@ -77,10 +77,10 @@ export const projects = [
   {
     url: "https://rock-paper-scissors-app-seven.vercel.app/",
     text: "Rock-Paper-Scissors App",
-    image: "/images/traders-app.png",
+    image: "/images/rock-paper-scissors-app.png",
     description:
-      "A simple stock watchlist where users can keep track of their favoite stocks, showcasing my profiency with react query and api handling PS:for tablets and PCs",
-    tools: ["React", "CSS", "ReactQuery"],
+      "Enjoy a game of rock-paper-scissors, using redux for state management and react and tailwindCSS for an appealing and smooth UI/UX ",
+    tools: ["React", "TailwindCSS", "Redux"],
   },
   {
     url: "https://traders-app-teal.vercel.app/",
