@@ -24,7 +24,7 @@
 html,
 body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   font-family: "Poppins", Helvetica, sans-serif;
   font-size: 62.5%;
   overflow-x: hidden;
@@ -38,7 +38,7 @@ body {
   font-size: 1.5rem;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   body {
     width: 100%;
     height: 100vh;
@@ -96,7 +96,7 @@ h4 {
   font-weight: normal;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   h1 {
     font-size: 4rem;
   }
@@ -263,12 +263,12 @@ h4 {
   padding-bottom: 2em;
   background-color: var(--gray);
   z-index: 1;
-  translate: 100%;
+  transform: translateX(100%);
   transition: all 0.5s ease-in-out;
 }
 
 .ham-menu.show {
-  translate: 0;
+  transform: translateX(0);
 }
 
 .ham-profile {
@@ -278,9 +278,10 @@ h4 {
   align-items: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .ham-profile h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    text-align: center;
   }
 
   .tel-no,
@@ -334,7 +335,11 @@ h4 {
   transition: all 1s ease-in-out;
   animation: show-nav 2s ease-in-out forwards;
 }
-
+@media screen and (max-width:1024px){
+  .nav-links{
+    right: 30px;
+  }
+}
 .link.fade-in {
   /* opacity: 0; */
   animation: fadeIn 1s ease-in 2s forwards;
@@ -428,10 +433,9 @@ h4 {
   background-color: transparent;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .xl-container {
     display: flex;
-    /* justify-content: space-between; */
     width: 80%;
     max-width: 1280px;
     height: 80vh;
@@ -450,7 +454,6 @@ h4 {
   }
 
   .profile.flex-col {
-    /* width: 20%; */
     padding: 1.5em;
     gap: 0.5em;
   }
@@ -483,24 +486,22 @@ cursor: pointer;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 768px) {
   .container {
     display: block;
     width: 100%;
     height: 100%;
     padding-top: 5em;
-    /* background: var(--dark); */
-    /* background: linear-gradient(to bottom right, #000b1b, #3498db); */
+  
   }
 
   .profile.flex-col {
-    /* width: 20%; */
     padding: 1.5em;
     gap: 0.5em;
   }
 
   .profile-photo {
-    width: 100px;
+    width: 120px;
   }
 
   .profile-photo img {
@@ -517,7 +518,7 @@ cursor: pointer;
 }
 
 /* Home Page */
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 768px) {
   .home {
     background: linear-gradient(to bottom right, #000b1b, #3498db);
     height: 100vh;
@@ -552,7 +553,7 @@ cursor: pointer;
   padding-bottom: 2em;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .about,
   .projects,
   .contact {
@@ -586,7 +587,7 @@ cursor: pointer;
   font-size: 2.6rem;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .skills-container .card {
     font-size: 3rem;
   }
@@ -676,7 +677,7 @@ cursor: pointer;
   text-decoration: underline;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .overlay {
     font-size: 1.1rem;
   }
