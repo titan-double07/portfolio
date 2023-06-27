@@ -23,8 +23,7 @@ export default function Shared() {
     <div className="xl-container">
       <div
         id="hidden-tab"
-        className="profile fade-in flex-col text-center no-white-space capitalize"
-      >
+        className="profile fade-in flex-col text-center no-white-space capitalize">
         <div className="profile-photo">
           <img src={profileImg} alt="profileimage" />
         </div>
@@ -49,13 +48,16 @@ export default function Shared() {
           <FaEnvelope /> :{" "}
           <a href="mailto:chisomwebdev@outlook.com">chisomwebdev@outlook</a>
         </div>
-        <button className="cv-btn"><a href="https://drive.google.com/file/d/1cXMznTFdK8RXDO1FPuRWD67zv0EhPOUf/view?usp=sharing">Download CV</a> </button>
+        <button className="cv-btn">
+          <a href="https://drive.google.com/file/d/1cXMznTFdK8RXDO1FPuRWD67zv0EhPOUf/view?usp=sharing">
+            Download CV
+          </a>{" "}
+        </button>
       </div>
 
       <Navbar />
 
       <Outlet />
-
     </div>
   );
 }

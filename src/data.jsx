@@ -8,17 +8,17 @@ import {
   FaCss3Alt,
   FaReact,
   FaBootstrap,
-  
 } from "react-icons/fa";
-import { IoLogoJavascript} from "react-icons/io5";
-import { SiTailwindcss } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 export const links = [
   {
     id: 1,
     url: "/",
     text: "Home",
-    icon: <FaHome/>,
+    icon: <FaHome />,
   },
   {
     id: 2,
@@ -71,15 +71,27 @@ export const skills = [
     text: "Tailwind",
     icon: <SiTailwindcss className="icon tailwind" />,
   },
+  {
+    text: "Next.js",
+    icon: <SiNextdotjs className="icon " />,
+  },
 ];
 
 export const projects = [
+  {
+    url: "https://loopstudios-titanweb.vercel.app/",
+    text: "Loopstudios landing page",
+    image: "/images/loopstudios-desktop-min.png",
+    description:
+      "Loop Studios is a captivating webpage created using Next.js, TailwindCSS, Redux, and Framer Motion. With Next.js, it offers excellent performance and responsiveness. TailwindCSS ensures a polished design across devices. Redux enables seamless data flow, while Framer Motion adds engaging animations. Experience a modern and immersive web journey with Loop Studios.",
+    tools: ["Next.js", "TailwindCSS", "Redux", "Framer Motion"],
+  },
   {
     url: "https://rock-paper-scissors-app-seven.vercel.app/",
     text: "Rock-Paper-Scissors App",
     image: "/images/rock-paper-scissors-app.png",
     description:
-      "Enjoy a game of rock-paper-scissors, using redux for state management and react and tailwindCSS for an appealing and smooth UI/UX ",
+      "The Rock Paper Scissors app is a fun and interactive web application created using React, TailwindCSS, and Redux. It offers an immersive gaming experience with smooth user interactions. The stylish design, powered by TailwindCSS, ensures a visually appealing interface. Redux enables efficient state management, enhancing the game logic and providing a seamless user experience. Enjoy playing Rock Paper Scissors in a modern and engaging way with this app ",
     tools: ["React", "TailwindCSS", "Redux"],
   },
   {
@@ -87,15 +99,14 @@ export const projects = [
     text: "Stock Watchlist App",
     image: "/images/traders-app.png",
     description:
-      "A simple stock watchlist where users can keep track of their favoite stocks, showcasing my profiency with react query and api handling PS:for tablets and PCs",
+      "The Traders app is a web application developed with React, CSS, and React Query. It offers a convenient stock watchlist feature, allowing users to track their favorite stocks and stay updated on their performance. With a user-friendly interface and efficient data management, the Traders app provides an enjoyable trading experience. Stay informed and organized with this powerful stock watchlist application.",
     tools: ["React", "CSS", "ReactQuery"],
   },
   {
     url: "https://chisomwebdev.vercel.app/",
     text: "My Portfolio Website",
     image: "/images/portfolio-img.png",
-    description:
-      "My very own porfolio website, showcasing my eye for design and my proficiency with react",
+    description: `ChisomWebDev's portfolio website is a personalized showcase of my web development journey. Powered by CSS and React, it presents a visually appealing and interactive platform to explore my skills and projects. With a clean and modern design, the website offers seamless navigation and highlights the essence of my work. Dive into my portfolio, witness my expertise firsthand, and discover the passion I bring to each project. Experience the artistry and innovation of ChisomWebDev's portfolio website in a concise and engaging format.`,
     tools: ["React", "CSS"],
   },
   {

@@ -31,6 +31,7 @@ body {
   color: white;
   background-color: var(--dark);
   position: relative;
+ letter-spacing: 1px;
 }
 
 body {
@@ -398,7 +399,17 @@ h4 {
   opacity: 1;
   translate: 0;
 }
-
+ .cv-btn {
+    padding: 0.5em;
+    border-radius: var(--radius);
+cursor: pointer;
+  }
+  .cv-btn:hover{
+    box-shadow: var(--shadow);
+  }
+  .cv-btn:active{
+   background-color: rgb(201, 201, 201);
+  }
 /* /////////////// */
 
 /* HOME */
@@ -473,17 +484,7 @@ h4 {
     font-size: 2rem;
     margin: 0 1rem;
   }
-  .cv-btn {
-    padding: 0.5em;
-    border-radius: var(--radius);
-cursor: pointer;
-  }
-  .cv-btn:hover{
-    box-shadow: var(--shadow);
-  }
-  .cv-btn:active{
-   background-color: rgb(201, 201, 201);
-  }
+ 
 }
 
 @media screen and (max-width: 768px) {

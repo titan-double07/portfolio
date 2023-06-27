@@ -35,6 +35,11 @@ export default function Navbar() {
             );
           })}
         </ul>
+        <button className="cv-btn">
+          <a href="https://drive.google.com/file/d/1cXMznTFdK8RXDO1FPuRWD67zv0EhPOUf/view?usp=sharing">
+            Download CV
+          </a>{" "}
+        </button>
         <div className="tel-no">
           <FaWhatsapp /> : +234 701 438 5856
         </div>
