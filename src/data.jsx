@@ -9,7 +9,7 @@ import {
   FaReact,
   FaBootstrap,
 } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandFramerMotion } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
@@ -48,6 +48,22 @@ export const links = [
 
 export const skills = [
   {
+    text: "Next.js",
+    icon: <SiNextdotjs className="icon " />,
+  },
+  {
+    text: "React",
+    icon: <FaReact className="icon react" />,
+  },
+  {
+    text: "Tailwind",
+    icon: <SiTailwindcss className="icon tailwind" />,
+  },
+  {
+    text: "Framer Motion",
+    icon: <TbBrandFramerMotion className="icon" />,
+  },
+  {
     text: "HTML",
     icon: <FaHtml5 className="icon html5" />,
   },
@@ -59,21 +75,10 @@ export const skills = [
     text: "Javascript",
     icon: <IoLogoJavascript className="icon js" />,
   },
-  {
-    text: "React",
-    icon: <FaReact className="icon react" />,
-  },
+
   {
     text: "Bootstrap",
     icon: <FaBootstrap className="icon bootstrap" />,
-  },
-  {
-    text: "Tailwind",
-    icon: <SiTailwindcss className="icon tailwind" />,
-  },
-  {
-    text: "Next.js",
-    icon: <SiNextdotjs className="icon " />,
   },
 ];
 

@@ -16,25 +16,27 @@ function About() {
         </h2>
         <p>
           Hi there! My name is
-          <span className="capitalize accent"> Chisom Okereke</span>, and I'm a
-          frontend developer with a passion for creating beautiful, intuitive
-          web experiences. I believe that the web has the power to connect
-          people from all over the world, and I'm excited to be a part of the
-          community that's making that possible.
-        </p>
-        <p>
-          What sets me apart as a developer is my attention to detail and my
-          commitment to creating web experiences that are not only beautiful,
-          but also accessible and user-friendly. I believe that a great website
-          should be easy to navigate, intuitive to use, and accessible to all
-          users, regardless of their abilities.
+          <span className="capitalize accent"> Chisom Okereke</span>, As a
+          <span className="capitalize accent">Front-End Developer</span>{" "}
+          specializing in Front End Web Development, I aim to build engaging and
+          user-friendly websites and web applications that leave a positive
+          impression. With expertise in programming and a keen eye for visual
+          aesthetics, I aim to create seamless online experiences that are
+          visually appealing and optimized for mobile devices. By understanding
+          business and user needs, I translate requirements into functional and
+          visually stunning interfaces. Continuously learning and staying
+          updated with the latest Front End Web development trends, I strive to
+          make a meaningful impact through usability, aesthetics, and the
+          effective use of visuals.
         </p>
       </section>
+      <br />
       <section className="certificates">
-        <p>
-          Here are some <span className="accent">Certificates</span> i earned
-          from some notable organisations on my educational journey
-        </p>
+  
+          <h3>
+           My <span className="accent">Certificates</span>{" "}
+          </h3>
+         
         <div className="certificate">
           <div className="flex-imp">
             <h2>
@@ -44,17 +46,8 @@ function About() {
               <a href="https://drive.google.com/file/d/14Xe6ycFF2AAulHJ7DHeEP6GjW60Td391/view?usp=sharing">
                 JavaScript Algorithms and Data Structures
               </a>
+              <a href="https://www.freecodecamp.org/learn"> : FreeCodeCamp</a>
             </p>
-
-            <div id="hidden-mobile" className="free-code-camp flex-imp ">
-              :
-              <p>
-                <a href="https://www.freecodecamp.org/learn">FreeCodeCamp</a>
-              </p>
-              <h3>
-                <FaFreeCodeCamp />
-              </h3>
-            </div>
           </div>
         </div>
 
@@ -67,16 +60,8 @@ function About() {
               <a href="https://drive.google.com/file/d/16-xyQSFOYpklTrPqKuS2gtKRj47ydLPu/view?usp=sharing">
                 Web Development Foundations
               </a>
+              <a href="https://www.udacity.com/"> : Udacitity</a>
             </p>
-            <div id="hidden-mobile" className="flex-imp">
-              :
-              <p>
-                <a href="https://www.udacity.com/">Udacitity</a>
-              </p>
-              <h4>
-                <SiUdacity />
-              </h4>
-            </div>
           </div>
         </div>
       </section>
