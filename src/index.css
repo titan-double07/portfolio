@@ -533,16 +533,17 @@ cursor: pointer;
 }
 
 .home .icon-container {
-  gap: 1em;
+  gap: 2em;
 }
 
 .home .icon-container .icon {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 @media screen and (max-width: 767px) {
-  .home .icon-container .icon {
-    font-size: 3rem;
-  }
+
+  .home .icon-container {
+  gap: 1.5em;
+}
 }
 /* //////////// */
 /* About page */
