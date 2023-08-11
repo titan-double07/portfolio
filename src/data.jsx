@@ -83,15 +83,23 @@ export const projects = [
     text: "Loopstudios landing page",
     image: "/images/loopstudios-desktop-min.png",
     description:
-      "Loop Studios is a captivating webpage created using Next.js, TailwindCSS, Redux, and Framer Motion. With Next.js, it offers excellent performance and responsiveness. TailwindCSS ensures a polished design across devices. Redux enables seamless data flow, while Framer Motion adds engaging animations. Experience a modern and immersive web journey with Loop Studios.",
+    "Loop Studios is a captivating responsive webpage created using Next.js, TailwindCSS, Redux, and Framer Motion. With Next.js, it offers excellent performance and responsiveness. TailwindCSS ensures a polished design across devices. Redux enables seamless data flow, while Framer Motion adds engaging animations. Experience a modern and immersive web journey with Loop Studios.",
     tools: ["Next.js", "TailwindCSS", "Redux", "Framer Motion"],
+  },
+  {
+    url: "https://multi-stage-form-beta.vercel.app/",
+    text: "Multi-stage SignUp Form",
+    image: "/images/multi-stage-signUp-form.png",
+    description:
+      "A smooth responsive multi-stage signUp form, enabled with basic form validation and efficient data collection and tracking with the help of the react-hook-form library, the web app was built using Next.js, with TailwindCSS and FramerMotion to give it mordern UI/UX and smooth animated transitions",
+    tools: ["Next.js", "TailwindCSS", "Framer Motion"],
   },
   {
     url: "https://rock-paper-scissors-app-seven.vercel.app/",
     text: "Rock-Paper-Scissors App",
     image: "/images/rock-paper-scissors-app.png",
     description:
-      "The Rock Paper Scissors app is a fun and interactive web application created using React, TailwindCSS, and Redux. It offers an immersive gaming experience with smooth user interactions. The stylish design, powered by TailwindCSS, ensures a visually appealing interface. Redux enables efficient state management, enhancing the game logic and providing a seamless user experience. Enjoy playing Rock Paper Scissors in a modern and engaging way with this app ",
+      "The Rock Paper Scissors app is a fun and interactive responsive web application created using React, TailwindCSS, and Redux. It offers an immersive gaming experience with smooth user interactions. The stylish design, powered by TailwindCSS, ensures a visually appealing interface. Redux enables efficient state management, enhancing the game logic and providing a seamless user experience. Enjoy playing Rock Paper Scissors in a modern and engaging way with this app ",
     tools: ["React", "TailwindCSS", "Redux"],
   },
   {

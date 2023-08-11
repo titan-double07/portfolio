@@ -119,14 +119,14 @@
     align-items: center;
   }
 }
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
   }
-}
+} */
 .grid-col-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

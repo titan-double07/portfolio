@@ -18,9 +18,9 @@ function Projects() {
           return (
             <div key={index} className="item">
               <div className="overlay">
-                <p>
-                  <span className="accent">Description:</span> {description}
-                </p>
+                <div className="project-link">
+                  <a href={url}>visit site &gt;&gt;</a>
+                </div>
                 <div className="tools flex-wrap">
                   <span className="accent">Tools:</span>
                   {tools.map((tool, index) => {
@@ -31,9 +31,9 @@ function Projects() {
                     );
                   })}
                 </div>
-                <div className="project-link">
-                  <a href={url}>visit site &gt;&gt;</a>
-                </div>
+                <p>
+                  <span className="accent">Description:</span> {description}
+                </p>
               </div>
              
               <img className="project-img card " src={image} />
