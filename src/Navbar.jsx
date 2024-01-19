@@ -26,6 +26,7 @@ export default function Navbar() {
           <h4>frontend developer</h4>
         </div>
         <ul className="ham-links">
+          //links to the pages
           {links.map((link) => {
             const { id, text, url } = link;
             return (

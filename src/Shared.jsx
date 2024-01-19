@@ -30,28 +30,17 @@ export default function Shared() {
         <br />
         <h2 style={{ fontSize: "2.5rem" }}>chisom okereke</h2>
         <h4>frontend developer</h4>
-        {/* <div className="icon-container">
-          <a href="">
-            <IoLogoLinkedin className="icon linkedin" />
-          </a>
-          <a href="">
-            <FaTwitter className="icon twitter" />
-          </a>
-          <a href="">
-            <FaFacebookSquare className="icon facebook" />
-          </a>
-        </div> */}
         <div className="tel-no">
           <FaWhatsapp /> : +234 701 438 5856
         </div>
         <div className="email lowercase">
-          <FaEnvelope /> :{" "}
+          <FaEnvelope /> :
           <a href="mailto:chisomwebdev@outlook.com">chisomwebdev@outlook</a>
         </div>
         <button className="cv-btn">
           <a href="https://drive.google.com/file/d/1cXMznTFdK8RXDO1FPuRWD67zv0EhPOUf/view?usp=sharing">
             Download CV
-          </a>{" "}
+          </a>
         </button>
       </div>
 
